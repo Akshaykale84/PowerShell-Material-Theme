@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "",
+            "postfix": "",
+            "text": "<#C591E8>\u276F</><#69FF94>\u276F</>"
+          }
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "#56B6C2",
+          "properties": {
+            "style": "folder"
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "foreground": "#C678DD",
+          "properties": {
+            "prefix": "<#ffffff>on</> ",
+            "display_status": true
+          }
+        },
+        {
+          "type": "battery",
+          "style": "plain",
+          "foreground": "#56B6C2",
+          "properties": {
+            "prefix": "Fuel:",
+            "postfix": "%",
+            "display_exit_code": false
+          }
+        },
+        {
+          "type": "time",
+          "style": "plain",
+          "foreground": "#66F68F",
+          "properties": {
+            "time_format": "15:04"
+          }
+        },
+        {
+          "type": "exit",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "trailing_diamond": "\u279C ",
+          "properties": {
+            "prefix": " X",
+            "display_exit_code": false,
+            "error_color": "#C94A16",
+            "always_enabled": true
+            
+          }
+        }
+      ]
+    }
+  ]
+}
